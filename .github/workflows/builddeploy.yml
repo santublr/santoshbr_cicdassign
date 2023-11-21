@@ -76,4 +76,4 @@ jobs:
         ssh -o StrictHostKeyChecking=no -i assign5sbr.pem ec2-user@ec2-16-171-101-118.eu-north-1.compute.amazonaws.com 'sudo docker rm assign5 || true'
     - name: Run new container
       run: |
-        ssh -o StrictHostKeyChecking=no -i assign5sbr.pem ec2-user@ec2-16-171-101-118.eu-north-1.compute.amazonaws.com 'sudo docker run -d --name assign5  santoshbr/assign5:latest
+        ssh -o StrictHostKeyChecking=no -i assign5sbr.pem ec2-user@ec2-16-171-101-118.eu-north-1.compute.amazonaws.com 'sudo docker run -d --name assign5  santoshbr/assign5:latest'
